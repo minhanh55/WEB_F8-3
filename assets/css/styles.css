@@ -306,3 +306,56 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
 }
+
+/* Works */
+.works {
+    background: #f6fbff;
+    padding: 100px 0;
+}
+
+.works__desc {
+    width: 468px;
+}
+
+.works__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 86px;
+}
+
+.works-item {
+    border: 16px solid #eaf6ff;
+    border-radius: 4px;
+    padding: 43px;
+    transition: 0.25s;
+}
+
+.works-item:hover {
+    transform: translateY(-16px);
+    border-color: #2e80ce;
+}
+
+.works-item__heading {
+    margin-top: 20px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    color: #10375c;
+}
+
+.works-item__desc {
+    margin-top: 28px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.work-item__more {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #2e80ce;
+}
